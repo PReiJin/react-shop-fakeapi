@@ -47,13 +47,16 @@ export default function Sidebar() {
 					))}
 				</div>
 				<div
-					className='flex items-center justify-between py-6 border-b absolute
+					className='flex flex-col items-center gap-6 justify-between py-6 border-b absolute
 				 bottom-0 left-0 z-10 bg-white right-0 px-8 md:pl-10 lg:pl-14 md:pr-4'
 				>
 					<div className='flex justify-between h-full w-full uppercase text-lg font-bold'>
 						<div>Total</div>
 						<div>${total}</div>
 					</div>
+					<button className='outline-none hover:underline uppercase font-semibold text-lg'>
+						Check Out
+					</button>
 				</div>
 			</div>
 		</div>
